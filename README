@@ -200,3 +200,19 @@ for details.  See README_windows.txt for details on the Windows port.
 ---
 Originally written: 17 May 2011
 Last refreshed: 10 Aug 2023
+
+
+## Script para construir gperftools para Android
+'''bash
+cd android/
+bash build.sh LOCAL_DO_SEU_NDK
+'''
+**Exemplo:**
+'''bash
+cd android/
+bash build.sh /home/pallas/Projetos/tools/android-ndk-r27
+'''
+Referencias:
+https://developer.android.com/ndk/guides/other_build_systems
+https://github.com/android/ndk/issues/718
+https://stackoverflow.com/questions/216450/gcc-and-ld-cant-find-exported-symbols-but-theyre-there
